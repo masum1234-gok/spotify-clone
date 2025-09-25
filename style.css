@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Figtree", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 6px 12px;
+    /* max-width: ; */
+}
+
+.Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.surch {
+    margin-left: 10px;
+    padding-left: 4px;
+    border-radius: 75px;
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.Home img {
+    width: 26px;
+    padding: 7px 7px;
+}
+
+.surch img {
+    width: 26px;
+    padding: 7px 7px;
+}
+
+div input {
+    font-size: 16px;
+    width: 27vw;
+    border: 0px;
+    background-color: #1f1f1f;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.leka {
+    color: white;
+
+}
+
+.right ul {
+    display: flex;
+    gap: 9px;
+    list-style: none;
+    font-weight: 700;
+    color: white;
+
+}
+
+.instal img {
+    width: 15px;
+    color: white;
+}
+
+.instal div {
+    color: white;
+    font-weight: 500;
+
+}
+
+button {
+    font-weight: 500;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+}
+
+/* .center {
+    padding-left: 450px;
+} */
+
+.log {
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    width: 90px;
+    font-weight: 700;
+
+}
+
+.bam {
+    margin-left: 10px;
+    width: 22vw;
+    padding: 23px;
+
+}
+
+.dan {
+    position: relative;
+    margin-right: 10px;
+    width: 78vw;
+    overflow-y: scroll;
+}
+
+.Player {
+    color: white;
+    width: 100%;
+}
+
+#rightline {
+    display: flex;
+    width: 50px;
+}
+
+.gola {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.libary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.libary span {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.libary div {
+    width: 15px;
+}
+
+.futer {
+    color: white;
+    display: flex;
+    width: 100%;
+    gap: 13px;
+    height: 150px;
+    flex-direction: column;
+
+}
+
+.futer ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    row-gap: 10px;
+}
+
+.futer ul li {
+
+    color: rgb(179, 179, 179);
+    font-size: 11px;
+    font-weight: 400;
+    cursor: not-allowed;
+    margin-right: 9px;
+}
+
+.futer span {
+    font-size: 14PX;
+    font-weight: 400;
+}
+
+.english img {
+    height: 20px;
+}
+
+.cardbox {
+    display: flex;
+    /* margin: auto; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.english {
+    width: 92px;
+    height: 10px;
+    padding: 10px 4px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+
+.english span {
+    padding-right: 4px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.SongList {
+    height: 550px;
+    width: 103%;
+    border-radius: 20px;
+    background-color: rgb(30, 30, 57);
+    margin: 17px 0;
+}
+
+.SongList ol {
+    padding: 0 27px;
+    list-style: decimal;
+    color: white;
+}
+
+.SongList {
+    overflow-y: scroll
+}
+
+.SongList ol li .song {
+    padding-top: 10px;
+    display: flex;
+    gap: 0px;
+    border-bottom: 0.2px solid rgb(94, 94, 94);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.song span {
+    font-size: small;
+}
+
+.SongList ol li {
+    display: list-item;
+
+}
+
+.SongList ol li img {
+    height: 20px;
+}
+
+.songaria {
+    margin-left: 6px;
+    width: 100%;
+}
+
+.card {
+    padding: 10px;
+    width: 162px;
+    display: flex;
+    height: 295px;
+    gap: 10px;
+    border-radius: 13px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    border-radius: 10px;
+    width: inherit;
+}
+
+.song img {
+    cursor: pointer;
+}
+
+p {
+    font-size: smaller;
+}
+
+.songnam {
+    cursor: default;
+    overflow: clip;
+    height: 20px;
+}
+#plyingTime{
+text-align: right;
+}
+.audioplayer {
+    z-index: 2;
+    border-radius: 7px;
+    background-color: rgba(66, 66, 66, 0.687);
+    position: sticky;
+    bottom: 60px;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 150px;
+}
+
+.controlar img {
+    cursor: pointer;
+    height: 40px;
+}
+
+.controlar {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.sikbar {
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 100px;
+    height: 4px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+}
+
+.runtime {
+    position: relative;
+    left: 0%;
+    transition: left 0.2s;
+    width: 15px;
+    margin-left: -5px;
+    height: 15px;
+    align-self: center;
+    border-radius: 100px;
+    background-color: aliceblue;
+}
+
+#play {
+    height: 60px;
+}
+
+.playbarsonginfo {
+    height: 10px;
+    display: flex;
+    width: 92%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#volume-container {
+    background-color: #f0f0f000;
+    /* Light gray background */
+    border-radius: 8px;
+}
+
+#volume-label {
+    color: #ffffff;
+    /* Dark gray text */
+    font-weight: bold;
+}
+
+#volume {
+    width: 150px;
+    /* Change the slider track color */
+    accent-color: #3345e7;
+    /* Green color for the filled part */
+    background: #000000;
+    /* Background color of the unfilled part */
+}
+
+#audio-player {
+    /* Optional: Style the audio player */
+    filter: hue-rotate(90deg);
+    /* Changes color tone of the player */
+}
+
+#rightline {
+    display: none;
+}
+
+@media (max-width:1400px) {
+    .songnam {
+        font-size: 14px;
+    }
+
+    .SongList {
+        height: 400px;
+    }
+
+    .bam {
+        position: absolute;
+        transition: all .9s;
+        left: -100%;
+        z-index: 1;
+        width: 300px;
+    }
+
+    .dan {
+        width: 100vw;
+    }
+
+    .right {
+        display: none;
+        position: absolute;
+    }
+
+    #rightline {
+        display: flex;
+    }
+}
+
+@media (max-width:400px) {
+    .card {
+        width: 200px;
+    }
+}

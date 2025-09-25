@@ -1,0 +1,60 @@
+.flax {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.coto {
+    height: 40px;
+}
+
+.bg-gry {
+
+    background-color: #1f1f1f;
+}
+
+.line {
+    margin: auto 10px;
+    width: 1px;
+    height: 30px;
+    background-color: whitesmoke;
+}
+/* For Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #555 #1e1e1e;
+}
+
+.bot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 90vh;
+    border-radius: 9px;
+    box-sizing: border-box;
+}
+.box{
+    width: 400px;
+    height: 50px;
+    margin: 4px;
+    background-color: blueviolet;
+}
